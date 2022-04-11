@@ -43,6 +43,11 @@ const Home = () => {
     setTotalCount(data?.total !== undefined ? data.total : 0)
   }, [data])
 
+  const handleSearch = () =>{
+    setSearch(searchValue)
+    setCurrentPage(1)
+  }
+
   return (
     <>
       <Header />
@@ -87,7 +92,7 @@ const Home = () => {
             <Button
               startIcon={<FaSearch size={15} style={{ marginLeft: '1rem' }} />}
               variant="contained"
-              onClick={() => setSearch(searchValue)}
+              onClick={handleSearch}
             >
               <Typography style={{ padding: '0.5rem 1rem 0.5rem 0' }}>
                 SEARCH
