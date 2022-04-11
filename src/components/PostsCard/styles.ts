@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import { Typography } from '@material-ui/core'
 
 export const Content = styled.p`
   overflow: hidden;
@@ -11,7 +10,5 @@ export const Tilte = styled.strong`
   color: #111;
   text-overflow: ellipsis;
   white-space: nowrap;
-  overflow: hidden,
+  overflow: hidden;
 `
-
-
