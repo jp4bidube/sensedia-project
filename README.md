@@ -2,7 +2,7 @@
 
 Aplication using Next Js, TypeScript and React query for cache control. 🚀🚀
 
-![alt text](https://github.com/jp4bidube/sensedia-project/blob/main/thumb.png?raw=true)
+![alt text](https://github.com/jp4bidube/sensedia-project/blob/main/grid.png?raw=true)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
