@@ -41,11 +41,6 @@ const Home = () => {
 
   useEffect(() => {
     setTotalCount(data?.total !== undefined ? data.total : 0)
-    setCurrentPage(
-      currentPage > Math.ceil(data?.total !== undefined ? data?.total : 0 / 10)
-        ? 1
-        : currentPage
-    )
   }, [data])
 
   return (
