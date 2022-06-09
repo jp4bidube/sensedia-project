@@ -50,18 +50,22 @@ export const PostsCard = ({ posts, isFetching }: PostsCardProps) => {
             </Card>
           </Grid>
         ))}
-      <Grid item xs={12}>
+      <Grid item xs={12} md={6}>
         <Box
           display="flex"
           justifyContent="space-between"
           alignItems="center"
           padding="1rem 3rem"
         >
+          </Box>
+          
+        
           <Typography color="textPrimary" variant="button">
             TOTAL RESULTS: {totalCount}
           </Typography>
+      </Grid>
+      <Grid item xs={12} md={6}>
           <PostsPagination />
-        </Box>
       </Grid>
     </Grid>
   )
