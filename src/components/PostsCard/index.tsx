@@ -55,7 +55,7 @@ export const PostsCard = ({ posts, isFetching }: PostsCardProps) => {
           display="flex"
           justifyContent="center"
           alignItems="center"
-          padding="1rem 3rem"
+          padding="1rem 1rem"
         >
           <Typography color="textPrimary" variant="button">
             TOTAL RESULTS: {totalCount}
